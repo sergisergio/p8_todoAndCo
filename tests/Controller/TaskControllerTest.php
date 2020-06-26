@@ -1,10 +1,9 @@
 <?php
 
-namespace Tests\AppBundle\Controller;
+namespace App\Tests\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
-
-class TaskControllerTest extends WebTestCase
+use PHPUnit\Framework\TestCase;
+class TaskControllerTest extends TestCase
 {
     private $client = null;
 

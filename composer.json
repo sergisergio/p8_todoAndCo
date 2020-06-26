@@ -24,7 +24,6 @@
         "doctrine/doctrine-cache-bundle": "^1.2",
         "doctrine/doctrine-migrations-bundle": "^3.0",
         "doctrine/orm": "^2.5",
-        "phpunit/phpunit": "^7.3",
         "sensio/framework-extra-bundle": "^3.0.2",
         "symfony/asset": "^4.4",
         "symfony/console": "^4.4",
@@ -48,7 +47,7 @@
         "doctrine/doctrine-fixtures-bundle": "^3.3",
         "symfony/dotenv": "^4.4",
         "symfony/maker-bundle": "^1.19",
-        "symfony/phpunit-bridge": "^4.0"
+        "symfony/phpunit-bridge": "^5.1"
     },
     "scripts": {
         "auto-scripts": {

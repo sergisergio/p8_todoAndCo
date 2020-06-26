@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\AppBundle\Entity;
+namespace App\Tests\Entity;
 
-use AppBundle\Entity\Task;
+use App\Entity\Task;
 use PHPUnit\Framework\TestCase;
 
 class TaskTest extends TestCase
 {
     private $task;
     public function setUp(): void
-{
-    $this->task = new Task();
-}
+    {
+      $this->task = new Task();
+    }
 
     public function testIsDone(){
         $this->task->toggle(true);
